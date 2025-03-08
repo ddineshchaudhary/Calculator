@@ -1,9 +1,11 @@
 {
-  "name": "calculator-module",
+  "name": "@dinesh15/calculator-module",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "npx unbuild"
+    "build": "npx unbuild",
+    "publish": "npm publish --access=public",
+    "dryrun": "npm publish --dry-run"
   },
   "keywords": [],
   "author": "dinesh chaudhary",
