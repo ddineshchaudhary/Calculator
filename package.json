@@ -1,0 +1,27 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "type":"module", 
+  "scripts": {
+    "build": "npx unbuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddineshchaudhary/Calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ddineshchaudhary/Calculator/issues"
+  },
+  "homepage": "https://github.com/ddineshchaudhary/Calculator"
+}
+
